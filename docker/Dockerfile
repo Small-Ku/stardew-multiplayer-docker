@@ -22,7 +22,7 @@ RUN wget -qO dotnet.tar.gz https://download.visualstudio.microsoft.com/download/
     && rm dotnet.tar.gz \
     && ln -s /usr/share/dotnet/dotnet /usr/bin/dotnet 
 
-RUN wget https://github.com/Pathoschild/SMAPI/releases/download/3.14.7/SMAPI-3.14.7-installer.zip -qO /data/nexus.zip && \
+RUN wget https://github.com/Pathoschild/SMAPI/releases/download/3.18.1/SMAPI-3.18.1-installer.zip -qO /data/nexus.zip && \
     unzip /data/nexus.zip -d /data/nexus/ && \
     /bin/bash -c "SMAPI_NO_TERMINAL=true SMAPI_USE_CURRENT_SHELL=true echo -e \"2\n\n\" | /data/nexus/SMAPI\ 3.14.7\ installer/internal/linux/SMAPI.Installer --install --game-path \"/data/Stardew/Stardew Valley\"" || :
 
