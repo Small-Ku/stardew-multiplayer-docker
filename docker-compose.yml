@@ -154,5 +154,6 @@ services:
       - ./backups:/config/xdg/config/StardewValley/Saves/save-backups
       # The stateful configs should be initially empty files with 777 permission
       - ./configs/autoload.json:/data/Stardew/Stardew Valley/Mods/AutoLoadGame/config.json
+      - ./logs:/config/xdg/config/StardewValley/ErrorLogs
 
       
