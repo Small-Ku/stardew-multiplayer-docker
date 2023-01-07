@@ -1,0 +1,11 @@
+{
+	"Name": "Puffin Beach Farm",
+	"Author": "Athelinde & Mops",
+	"Version": "0.8.1",
+	"UniqueID": "Athelinde.PuffinBeachFarm",
+	"UpdateKeys": [ ],
+	"MinimumApiVersion": "3.0.0",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	}
+}

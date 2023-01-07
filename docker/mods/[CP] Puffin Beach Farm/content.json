@@ -1,0 +1,23 @@
+{
+	"Format": "1.8",
+	"Changes": [{
+		"Action": "Load",
+		"Target": "Maps/Farm_Island",
+		"FromFile": "assets/Farm_Puffin_Beach.tmx"
+	},
+	{
+		"Action": "Load",
+		"Target": "Maps/FarmCave",
+		"FromFile": "assets/farmcave.tmx",
+		"When": {
+			"FarmType": "Beach"
+		}
+	},
+	],
+	"addMaps": [
+		{ //Farm Orchard
+		"name": "FarmOrchard",
+		"file": "assets/FarmOrchard.tmx"
+		}
+	]
+}
